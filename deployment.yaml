@@ -29,3 +29,7 @@ spec:
               containerPort: 3000
               name: app-port
               protocol: TCP
+          resources:
+            limits:
+              memory: 500Mi
+              cpu: 1000m
